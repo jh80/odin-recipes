@@ -1,0 +1,47 @@
+body {
+    background-color: #8ac3b9;
+    font-family: copperplate, trebuchet, sans-serif;
+}
+
+.index h1 {
+    font-size: 70px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    background-color: bisque;
+}
+
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.index ul {
+    font-size: 30px;
+    background-color: rgb(182, 217, 143);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: darkolivegreen;
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
+.credit {
+    font-size: 10px;
+    padding-top: 0px;
+}

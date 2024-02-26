@@ -70,3 +70,14 @@ a:hover {
     padding-top: 0px;
 }
 
+.recipe-card {
+    border: 5px dashed #918369;
+    width: 800px;
+    padding: 70px 15px 15px 15px;
+    margin: -80px auto 15px auto;
+}
+
+.recipe-photo {
+    display: block;
+    margin: 0px auto;
+}

@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: #8ac3b9;
     font-family: copperplate, trebuchet, sans-serif;
@@ -23,14 +33,28 @@ ul {
 .index ul {
     font-size: 30px;
     background-color: rgb(182, 217, 143);
+    width: 600px;
+    margin:  -10px auto;
+    padding: 30px 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.index li {
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
     text-decoration: none;
 }
 
+.index li::marker {
+    color: #2b390b;
+}
+
 a:link {
-    color: black;
+    color: #2b390b;
 }
 
 a:visited {
@@ -45,3 +69,4 @@ a:hover {
     font-size: 10px;
     padding-top: 0px;
 }
+

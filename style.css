@@ -82,3 +82,7 @@ a:hover {
     display: block;
     margin: 0px auto;
 }
+
+footer {
+    text-align: center;
+}
